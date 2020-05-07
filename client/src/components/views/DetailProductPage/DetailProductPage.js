@@ -19,9 +19,6 @@ function DetailProductPage(props) {
 
     }, [])
 
-    const addToCartHandler = (productId) => {
-        dispatch(addToCart(productId))
-    }
 
     return (
         <div className="postPage" style={{width: '100%', padding: '3rem 4rem'}}>
@@ -37,7 +34,6 @@ function DetailProductPage(props) {
                 </Col>
                 <Col xl={12} xs={24}>
                     <ProductInfo 
-                        addToCart={addToCartHandler}
                         detail={Product}
                     />                
                 </Col>

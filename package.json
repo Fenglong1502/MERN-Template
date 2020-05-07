@@ -1,7 +1,7 @@
 {
-  "name": "react-boiler-plate",
+  "name": "mern_template",
   "version": "1.0.0",
-  "description": "react boiler plate",
+  "description": "MERN Basic Template, for blog or basic web",
   "main": "index.js",
   "engine": {
     "node": "10.16.0",
